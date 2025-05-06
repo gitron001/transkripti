@@ -1,0 +1,17 @@
+{
+    "extension_name": "Voice Isolator",
+    "version": "1.1",
+    "controllers": [
+      "app/Http/Controllers/Admin/Extensions/VoiceIsolatorSettingController.php",
+      "app/Http/Controllers/User/VoiceIsolatorController.php"
+    ],
+    "views": [
+      "resources/views/default/admin/davinci/configuration/extension/voice-isolator/setting.blade.php",
+      "resources/views/default/user/voice_isolator/index.blade.php"
+    ],
+    "routes": "routes/voice_isolator_route.php",
+    "migrations": {
+        "install": [],
+        "uninstall": []
+    }
+}
